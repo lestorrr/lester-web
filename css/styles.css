@@ -11485,16 +11485,7 @@ div {
 }
 h1 { font-size: 4em; color: white; text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white, 0 0 80px #fff3ea; }
 
-#video-background {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
-
-.content {
-  position: relative;
-  z-index: 1;
+body {
+  background-color: black;
+  color: white;
 }
