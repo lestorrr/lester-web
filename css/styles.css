@@ -11487,23 +11487,5 @@ h1 { font-size: 4em; color: white; text-shadow: 0 0 20px white, 0 0 40px white, 
 
 }
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-#video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-#video-background video {
-  min-width: 100%;
-  min-height: 100%;
-}
 
