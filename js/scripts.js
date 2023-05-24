@@ -42,31 +42,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
   });
 })
-
-window.addEventListener('DOMContentLoaded', event => {
-    // Get the counter elements
-    var counterContainer = document.getElementById("downloadCounterContainer");
-    var counter = document.getElementById("downloadCounter");
-
-    // Retrieve the initial count from localStorage or set it to 0
-    var count = localStorage.getItem("downloadCount") || 0;
-
-    // Update the counter element with the initial count
-    counter.innerText = count;
-
-    // Function to update the counter
-    function updateCounter() {
-      count++; // Increment the count by 1
-      counter.innerText = count; // Update the counter element with the new count
-      localStorage.setItem("downloadCount", count); // Store the updated count in localStorage
-    }
-
-    var downloadLinks = document.getElementsByClassName("button");
-    for (var i = 0; i < downloadLinks.length; i++) {
-      downloadLinks[i].addEventListener("click", updateCounter);
-    }
-  });
-
-<div id="downloadCounterContainer">
-  Downloads: <span id="downloadCounter">0</span>
-</div>
