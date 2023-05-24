@@ -45,22 +45,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
   // Get the counter elements
-  var counterContainer = document.getElementById("downloadCounterContainer");
-  var counter = document.getElementById("downloadCounter");
+    var counterContainer = document.getElementById("downloadCounterContainer");
+    var counter = document.getElementById("downloadCounter");
 
   // Set the initial count value
-  var count = 0;
+    var count = 0;
 
   // Function to update the counter
-  function updateCounter() {
+    function updateCounter() {
     count++; // Increment the count by 1
     counter.innerText = count; // Update the counter element with the new count
-  }
+    }
 
-  var downloadLinks = document.getElementsByClassName("button");
-  for (var i = 0; i < downloadLinks.length; i++) {
+    var downloadLinks = document.getElementsByClassName("button");
+    for (var i = 0; i < downloadLinks.length; i++) {
     downloadLinks[i].addEventListener("click", updateCounter);
-  }
-
-    
+    } 
 });
