@@ -11459,7 +11459,7 @@ div {
 
 .button{
   display: grid;
-  color: #00ff00;
+  color: black;
   text-decoration: white;
   padding: 20px 50px;
   border-style: dashed double none;
