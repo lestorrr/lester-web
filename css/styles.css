@@ -11503,4 +11503,8 @@ body {
       min-height: 100%;
 }
   
-
+#downloadCounter {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
