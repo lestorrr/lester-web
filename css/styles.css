@@ -11461,9 +11461,9 @@ div {
   display: grid;
   color: white;
   text-decoration: white;
-  padding: 20px 50px;
+  padding: 40px 50px;
   border-style: dashed double none;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .button:hover{
@@ -11482,7 +11482,7 @@ div {
       0 0 50px #4e00c2;
   }
 }
-h1 { font-size: 4em; color: green; text-shadow: 0 0 20px whitesmoke, 0 0 40px red, 0 0 60px yellow, 0 0 80px #fff3ea; }
+h1 { font-size: 4em; color: white; text-shadow: 0 0 20px whitesmoke, 0 0 40px red, 0 0 60px yellow, 0 0 80px #fff3ea; }
 
 body {
       height: 100%;

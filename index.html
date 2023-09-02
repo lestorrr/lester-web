@@ -22,7 +22,7 @@
 
 <div class="tracker">
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" style="font-size: 550px;">🖕</text>
+        <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" style="font-size: 550px;">😘</text>
     </svg>
 </div>
 
@@ -38,38 +38,8 @@
     document.body.addEventListener("mousemove", e => {
         tracker.style.left = `${e.clientX}px`;
         tracker.style.top = `${e.clientY}px`;
-    });
-
-    window.addEventListener('DOMContentLoaded', event => {
-        // Get the counter elements
-        var counterContainer = document.getElementById("downloadCounterContainer");
-        var counter = document.getElementById("downloadCounter");
-
-        // Retrieve the initial count from localStorage or set it to 0
-        var count = parseInt(localStorage.getItem("downloadCount")) || 0;
-
-        // Update the counter element with the initial count
-        counter.innerText = count;
-
-        // Function to update the counter
-        function updateCounter() {
-            count++; // Increment the count by 1
-            counter.innerText = count; // Update the counter element with the new count
-            localStorage.setItem("downloadCount", count); // Store the updated count in localStorage
-        }
-
-        var downloadLinks = document.getElementsByClassName("button");
-        for (var i = 0; i < downloadLinks.length; i++) {
-            downloadLinks[i].addEventListener("click", updateCounter);
-        }
-    });
+    })
 </script>
-
-
-<div id="downloadCounterContainer">
-    Downloads: <span id="downloadCounter">0</span>
-</div>
-
 
 
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -80,6 +50,7 @@
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#about">Tools</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">files</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">personal files</a></li>
 
                     </ul>
                 </div>
@@ -121,7 +92,8 @@
                 <div class="container"></div>
                 <h1>PDF FILES HERE! (click to download)</h1>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/SQLNotesForProfessionals.pdf" target="_blank" class="button">SQLNotesForProfessionals</a></div>
-                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/PythonNotesForProfessionals.pdf" target="_blank" class="button">PythonNotesForProfessionals</a></div>		        <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/PHPNotesForProfessionals.pdf"target="_blank"class="button">PHPNotesForProfessionals</a></div>
+                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/PythonNotesForProfessionals.pdf" target="_blank" class="button">PythonNotesForProfessionals</a></div>		       
+                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/PHPNotesForProfessionals.pdf"target="_blank"class="button">PHPNotesForProfessionals</a></div>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/JavaScriptNotesForProfessionals.pdf"target="_blank"class="button">JavaScriptNotesForProfessionals</a></div>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/JavaNotesForProfessionals.pdf"target="_blank"class="button">JavaNotesForProfessionals</a></div>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/HTML5NotesForProfessionals.pdf"target="_blank"class="button">HTML5NotesForProfessionals</a></div>
@@ -148,15 +120,26 @@
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/RNotesForProfessionals.pdf" target="_blank" class="button">RNotesForProfessionals</a></div>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/PowerShellNotesForProfessionals.pdf" target="_blank" class="button">PowerShellNotesForProfessionals</a></div>
                 <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/LaTeXNotesForProfessionals.pdf" target="_blank" class="button">LaTeXNotesForProfessionals</a></div>
-                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/.pdf" target="_blank" class="button"></a></div>
-                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/.pdf" target="_blank" class="button"></a></div>
-                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/.pdf" target="_blank" class="button"></a></div>
             </div>
                     </div>
                 </div>
             </div>
         </section>
+        <div>
+            <section>
+                <section class="page-section" id="personal files">
+                    <div class="container px-4 px-lg-5">
+                        <div class="container"></div>
+                        <h1>MY FILES(source code)</h1>
+                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/ALL HTML & CSS source code.zip" target="_blank" class="button">ALL HTML & CSS source code</a></div>
+                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/.pdf" target="_blank" class="button"></a></div>
+                <div><a href="https://raw.githubusercontent.com/lestorrr/lester-web/main/assets/.pdf" target="_blank" class="button"></a></div>
+
+            </section>
+        </div>
         <!-- Portfolio-->
+
+
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
